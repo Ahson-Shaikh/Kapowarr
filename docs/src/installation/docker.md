@@ -223,6 +223,15 @@ Now we can launch the container.
 	
 	7. Set the `TZ` environment variable to the [timezone database name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) of your timezone (value of `TZ identifier` on webpage).
 
+=== "Easypanel"
+	[Easypanel](https://easypanel.io) is a self-hosted Docker deployment platform, and it maintains a one-click deployment template for Kapowarr:
+
+	[![Deploy on Easypanel](https://easypanel.io/img/deploy-on-easypanel-40.svg)](https://easypanel.io/templates/kapowarr)
+
+	The template bundles the database, downloads, and comics volumes automatically - no manual volume or port setup needed.
+
+	![Kapowarr running in the Easypanel dashboard](../assets/img/Easypanel_setup.jpg)
+
 === "Docker Desktop"
 	1. Click the search bar at the top and search for `mrcas/kapowarr`.
 
